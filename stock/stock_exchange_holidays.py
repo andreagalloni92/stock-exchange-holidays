@@ -70,6 +70,32 @@ class NYSE:
         (date(2024, 12, 25), 'Christmas Day'),
         (date(2024, 12, 31), 'Last day of year')
     )
+    HOLIDAYS = HOLIDAYS + (
+        (date(2025, 1, 1), "New year"),
+        (date(2025, 1, 20), "Martin Luther King, Jr. Day"),
+        (date(2025, 2, 17), "Washington's Birthday"),
+        (date(2025, 4, 18), "Good Friday"),
+        (date(2025, 5, 26), "Memorial Day"),
+        (date(2025, 6, 19), "Juneteenth National Independence Day"),
+        (date(2025, 7, 4), "Independence Day"),
+        (date(2025, 7, 1), "Labor Day"),
+        (date(2025, 11, 27), "Thanksgiving Day"),
+        (date(2025, 12, 25), "Christmas Day"),
+        (date(2025, 12, 31), "Last day of year")
+    )
+    HOLIDAYS = HOLIDAYS + (
+        (date(2026, 1, 1), "New year"),
+        (date(2026, 1, 19), "Martin Luther King, Jr. Day"),
+        (date(2026, 2, 16), "Washington's Birthday"),
+        (date(2026, 4, 3), "Good Friday"),
+        (date(2026, 5, 25), "Memorial Day"),
+        (date(2026, 6, 19), "Juneteenth National Independence Day"),
+        (date(2026, 7, 3), "Independence Day"),
+        (date(2026, 7, 7), "Labor Day"),
+        (date(2026, 11, 26), "Thanksgiving Day"),
+        (date(2026, 12, 25), "Christmas Day"),
+        (date(2026, 12, 31), "Last day of year")
+    )
 
 
 class CME:
@@ -128,7 +154,32 @@ class CME:
         (date(2023, 12, 25), 'Christmas Day'),
         (date(2023, 12, 31), 'Last day of year')
     )
-
+    HOLIDAYS = HOLIDAYS + (
+        (date(2025, 1, 1), "New year"),
+        (date(2025, 1, 20), "Martin Luther King, Jr. Day"),
+        (date(2025, 2, 17), "Washington's Birthday"),
+        (date(2025, 4, 18), "Good Friday"),
+        (date(2025, 5, 26), "Memorial Day"),
+        (date(2025, 6, 19), "Juneteenth National Independence Day"),
+        (date(2025, 7, 4), "Independence Day"),
+        (date(2025, 7, 1), "Labor Day"),
+        (date(2025, 11, 27), "Thanksgiving Day"),
+        (date(2025, 12, 25), "Christmas Day"),
+        (date(2025, 12, 31), "Last day of year")
+    )
+    HOLIDAYS = HOLIDAYS + (
+        (date(2026, 1, 1), "New year"),
+        (date(2026, 1, 19), "Martin Luther King, Jr. Day"),
+        (date(2026, 2, 16), "Washington's Birthday"),
+        (date(2026, 4, 3), "Good Friday"),
+        (date(2026, 5, 25), "Memorial Day"),
+        (date(2026, 6, 19), "Juneteenth National Independence Day"),
+        (date(2026, 7, 3), "Independence Day"),
+        (date(2026, 7, 7), "Labor Day"),
+        (date(2026, 11, 26), "Thanksgiving Day"),
+        (date(2026, 12, 25), "Christmas Day"),
+        (date(2026, 12, 31), "Last day of year")
+    )
 
 class B3:
     """
